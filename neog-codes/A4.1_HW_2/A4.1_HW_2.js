@@ -11,3 +11,6 @@ function congratulationsMessage (message){
     console.log("$$"+ message + "$$")
 }
 console.log(congratulationsMessage("Congratulations! You won a lottery."))
+function concatenateKeywords(keyword1,keyword2){
+
+}
