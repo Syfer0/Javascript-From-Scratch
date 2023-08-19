@@ -46,10 +46,10 @@ console.log("---- ---- ----")
 function divisible(n){
     let call = ""
     for(let i=1;i<=n;i++){
-        
-    }
-    if ( n % 5 ===0 && n % 10 === 0){
-        call += i + " "; 
+        if ( i % 5 ===0 && i % 10 === 0){
+            call += i + " "; 
+        }
+       
     }
     return call;
 }
