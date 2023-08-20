@@ -1,56 +1,56 @@
-console.log("A5.1_HW")
+console.log("A5.2_HW")
 console.log("---- ---- ----")
 console.log("Exercise 1")
 console.log("1.1")
 console.log("---- ---- ----")
-numberReverse =""
-for(let i=20;i>=10;i--){
+for(i=30;i>11;i--){
     console.log(i)
 }
 console.log("---- ---- ----")
 console.log("1.2")
 console.log("---- ---- ----")
-for(i=10;i>=1;i--){
-    multipliyby6 = 6 * i
-    console.log(6+" * "+i+" = "+multipliyby6)
+for(let i = 15;i>1;i--){
+    result = i * 9
+    console.log( 9+" * "+ i +" = "+ result)
 }
 console.log("---- ---- ----")
 console.log("1.3")
 console.log("---- ---- ----")
-for(let i=100;i>=10;i-=10){
+for(let i = 50;i>1;i-=5){
     console.log(i)
 }
 console.log("---- ---- ----")
 console.log("Exercise 2")
 console.log("2.1")
 console.log("---- ---- ----")
-function printNumbersUpToN(n) {
-    for (let i = 1; i <= n; i++) {
-        console.log(i);
+function dividedBy8(n){
+    for(i=1;i<n;i++){
+        if(i % 8 === 0){
+            console.log(i)
     }
 }
-
-printNumbersUpToN(8);
+}
+dividedBy8(30)
 console.log("---- ---- ----")
 console.log("2.2")
 console.log("---- ---- ----")
-function printNumbersUp(n){
-    for(let i =1; i <= n; i++){
+function oddNumber(n){
+    for(let i=1;i<=n;i++)
+    if(i % 2 !==0){
         console.log(i)
+
     }
 }
-printNumbersUp(15)
+oddNumber(15)
 console.log("---- ---- ----")
 console.log("2.3")
 console.log("---- ---- ----")
-function divisible(n){
-    let call = ""
-    for(let i=1;i<=n;i++){
-        if ( i % 5 ===0 && i % 10 === 0){
-            call += i + " "; 
+function divideBy5and8(n){
+    for(let i=1; i<=n; i++){
+        if(i % 5 == 0 && i % 7 == 0){
+            console.log(i);
         }
-       
     }
-    return call;
 }
-console.log(divisible(50))
+
+divideBy5and8(50);
