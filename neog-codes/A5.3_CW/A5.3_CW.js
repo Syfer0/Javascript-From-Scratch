@@ -18,8 +18,8 @@ console.log("1.2")
 console.log("---- ---- ----")
 function divisibleNumber(n,m){
     let divisibleNumber =''
-    let notdivisibleNumber =''
-    for(let i = 0;i<=0;i++){
+    let notdivisibleNumber =''      
+    for(let i = 1;i<=n;i++){
         if(i % m ===0){
             divisibleNumber = divisibleNumber +i
         }else{
