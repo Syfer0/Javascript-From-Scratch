@@ -21,9 +21,9 @@ function divisibleNumber(n,m){
     let notdivisibleNumber =''      
     for(let i = 1;i<=n;i++){
         if(i % m ===0){
-            divisibleNumber = divisibleNumber +i
+            divisibleNumber = divisibleNumber +i+' '
         }else{
-            notdivisibleNumber = notdivisibleNumber + i
+            notdivisibleNumber = notdivisibleNumber + i+' '
         }
     }
     console.log("Divisible by 3:",divisibleNumber)
@@ -31,7 +31,7 @@ function divisibleNumber(n,m){
 }
 divisibleNumber(10,3)
 console.log("---- ---- ----")
-console.log("1.2")
+console.log("1.3")
 console.log("---- ---- ----")
 function printvisiblenumberbetween(p,n,m){
     if(p<n<m){
