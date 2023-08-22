@@ -1,46 +1,46 @@
-console.log("A5.3_HW_1")
+console.log("A5.3_HW_2")
 console.log("---- ---- ----")
-console.log("1.1")
+console.log("1.2")
 console.log("---- ---- ----")
 function printNumberpattern(n,m){
     let output ='';
     for(let i = 1;i<=n;i++){
         output = output + i
         if(i % m === 0 && i !=n){
-            output = output + '#'
+            output = output + '%'
         }
     }
     console.log(output)
-}
-printNumberpattern(9,4)
+}        
+printNumberpattern(20,5)
 console.log("---- ---- ----")
 console.log("1.2")
 console.log("---- ---- ----")
-function Divisibleby6(n,m){
+function Divisibleby5(n,m){
 let divisibleNumber = '';
 let NotdivisibleNumber = '';
-for(let i=1;i<=n;i++){
+for(let i=5;i<=n;i++){
     if(i % m ===0){
         divisibleNumber = divisibleNumber + i + ' '
     }else{
         NotdivisibleNumber = NotdivisibleNumber + i+ ' '
     }
     }
-    console.log("Divisible by 6:",divisibleNumber)
-    console.log("Not Divsible by :6",NotdivisibleNumber)
+    console.log("Divisible by 5:",divisibleNumber)
+    console.log("Not Divsible by :5",NotdivisibleNumber)
     }
-Divisibleby6(20,6)
+Divisibleby5(30,5)
 console.log("---- ---- ----")
 console.log("1.3")
 console.log("---- ---- ----")
 function printvisiblenumberbetween(p,n,m){
-    if(p<n<m){
-        for(i =n;i<=m;i++){
-            if(i % p === 0){
+    if(p>n<m){
+        for(i =p;i<=m;i++){
+            if(i % 2 === 0){
                 console.log(i)
             }
         }
     }
 
 }
-printvisiblenumberbetween(3,5,15)
+printvisiblenumberbetween(8,5,15)
