@@ -9,10 +9,13 @@ function averageOfNumbersuptoN (n){
     }
     return sum / n
 }
-const n = 10;
+let n = 10;
 const average = averageOfNumbersuptoN(n);
 
 console.log(`The average of numbers from 1 to ${n}: ${average}`);
 console.log("---- ---- ----")
 console.log("1.2")
 console.log("---- ---- ----")
+function sumOfNumbersGreaterThanSixUpToN (n){
+
+}
