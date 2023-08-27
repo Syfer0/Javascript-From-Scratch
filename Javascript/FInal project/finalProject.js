@@ -35,8 +35,21 @@ function getPrices(taxBoolean) {
 }
 console.log(getPrices(false))
 // Implement getDiscount()
-function getDiscount() {
-    
+function getDiscount(taxBoolean, guests) {
+    getPrices(taxBoolean);
+    if (typeof(guests) == 'number' && guests > 0 && guests < 30) {
+        let discount = 0;
+        if (guests < 5) {
+            discount = 5;
+        } else if (guests >= 5) {
+            discount = 10;
+        }
+        console.log('Discount is: $' + discount);
+    } else {
+        console.log('The second argument must be a number between 0 and 30');
+    }
 }
 
 // Call getDiscount()
+getDiscount(true, 2);
+getDiscount(false, 10); 
