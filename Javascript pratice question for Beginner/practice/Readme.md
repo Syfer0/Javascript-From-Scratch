@@ -16,7 +16,7 @@ JavaScript has several built-in data types, including:
    - **Array**: Represents an ordered list of values.
 
 3. **What is the difference between == and === in JavaScript?**
-The double equals (`==`) operator in JavaScript compares two values for equality, performing type coercion if necessary. For example, `"1" == 1` would evaluate to `true` because the string "1" is coerced into the number 1. On the other hand, the triple equals (`===`) operator checks for both value and type equality. It does not perform type coercion. Using `===` is generally considered safer and recommended for most cases.
+The double equals (`==`) operator in JavaScript compares two values for equality, performing type coercion if necessary. For example, `"1" == 1` would be evaluated to `true` because the string "1" is coerced into the number 1. On the other hand, the triple equals (`===`) operator checks for both value and type equality. It does not perform type coercion. Using `===` is generally considered safer and recommended for most cases.
 
 4. **What is the difference between var, let, and const?**
    - **var**: Declaring a variable with `var` has function scope. It can be redeclared and updated within its scope. It is also hoisted to the top of its scope.
